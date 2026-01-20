@@ -1,39 +1,41 @@
-# 天津科技大学本科毕业设计（论文） Typst 模板
+# Tianjin University of Science and Technology Undergraduate Thesis Typst Template
 
-本模板面向天津科技大学本科毕业设计/论文写作，基于 [modern-sjtu-thesis](https://github.com/tzhtaylor/modern-sjtu-thesis) 修改与适配，结构与排版已按校内规范调整。
+[中文](README_zh-cn.md)
 
-## 使用
+This template is designed for undergraduate thesis writing at Tianjin University of Science and Technology (TUST). It is adapted from [modern-sjtu-thesis](https://github.com/tzhtaylor/modern-sjtu-thesis) with the structure and typography adjusted to comply with the university's guidelines.
 
-### VS Code 本地编辑（推荐）
+## Usage
 
-1. 安装 [Tinymist Typst](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist) 插件，用于语法高亮、错误检查和 PDF 预览。
-2. 打开本仓库，编辑模板入口 [template/thesis.typ](template/thesis.typ)。
-3. 使用 `Ctrl + K V`(Windows) / `Command + K V`(macOS) 进行实时预览。
+### VS Code Local Editing (Recommended)
 
-### 编译
+1. Install the [Tinymist Typst](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist) extension for syntax highlighting, error checking, and PDF preview.
+2. Open this repository and edit the template entry file [template/thesis.typ](template/thesis.typ).
+3. Use `Ctrl + K V` (Windows) / `Command + K V` (macOS) for real-time preview.
 
-在仓库根目录执行：
+### Compilation
+
+Execute the following command in the repository root directory:
 
 - `typst compile template/thesis.typ`
 
-## 模板入口与配置
+## Template Entry and Configuration
 
-- 入口文件： [template/thesis.typ](template/thesis.typ)
-- 全局信息通过 `info` 配置；`work-type` 用于选择“毕业设计/毕业论文”。
+- Entry file: [template/thesis.typ](template/thesis.typ)
+- Global information is configured through the `info` configuration; `work-type` is used to select between "Design/Thesis".
 
-## 功能概览
+## Features Overview
 
-- 中文封面、英文封面、声明页、任务书、摘要、目录、正文、参考文献、致谢、附录
-- 插图、表格、算法、定理环境与示例
-- 公式与编号、字数统计
+- Chinese cover, English cover, declaration page, task description, abstract, table of contents, main content, bibliography, acknowledgments, and appendices
+- Figures, tables, algorithms, theorem environments with examples
+- Equations with numbering and word count statistics
 
-## 字体说明
+## Font Notes
 
-模板包含跨平台字体回退列表。若本机缺少某些字体，Typst 会给出警告但不影响编译。你可以按需在 [utils/style.typ](utils/style.typ) 中精简字体列表。
+The template includes a cross-platform font fallback list. If certain fonts are missing on your system, Typst will issue warnings but compilation will not be affected. You can customize the font list as needed in [utils/style.typ](utils/style.typ).
 
-## 致谢
+## Acknowledgments
 
-本模板基于 modern-sjtu-thesis 修改与适配，并参考部分第三方开源模板的组织方式。详细许可证信息见 [third_party/](third_party/)。
+This template is adapted from modern-sjtu-thesis and references the organizational methods of some third-party open-source templates. For detailed license information, see [third_party/](third_party/).
 
 ## License
 
@@ -41,3 +43,15 @@ This project is licensed under the MIT License.
 
 It also includes third-party components licensed under other open source licenses.
 See the third_party/ directory for details.
+
+### University Logo
+
+This template includes the logo of Tianjin University of Science and Technology
+for the purpose of academic thesis formatting.
+
+The university logo is not covered by the MIT license of this package.
+Its use is intended for non-commercial, academic, and educational purposes only,
+such as preparing theses or reports for the university.
+
+Users are responsible for ensuring that their use of the logo complies with
+the university’s policies and applicable regulations.
